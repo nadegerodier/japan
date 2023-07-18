@@ -1,8 +1,10 @@
 :root {
+  --off-black: #2a363b;
   --off-white: #fffdfb;
 }
 
 body {
+  color: var(--off-black);
   font-family: "Poppins", sans-serif;
 }
 
@@ -34,4 +36,33 @@ header h3 {
   font-weight: 900;
   letter-spacing: 5px;
   margin: 0;
+}
+
+section {
+  background-color: var(--off-white);
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 100px;
+}
+
+section img {
+  max-width: 100%;
+}
+
+section h2 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+section h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+section p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.8;
 }
