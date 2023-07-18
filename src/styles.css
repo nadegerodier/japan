@@ -20,7 +20,7 @@ header {
   background-size: cover;
   color: var(--off-white);
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1400px;
   padding: 200px 5px;
 }
 
@@ -45,13 +45,13 @@ header h3 {
 section {
   background-color: var(--off-white);
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1400px;
   padding: 100px;
 }
 
 section.middle-section {
   background-color: #f8f8f8;
-  padding: 100px 60px;
+  padding: 100px 80px;
 }
 
 section img {
