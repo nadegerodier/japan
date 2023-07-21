@@ -230,3 +230,27 @@ footer p {
     font-size: 32px;
   }
 }
+
+@media (max-width: 576px) {
+  section {
+    padding: 20px;
+  }
+
+  section.middle-section {
+    padding: 20px;
+  }
+
+  section h3 {
+    font-size: 28px;
+  }
+
+  footer {
+    padding: 30px 40px 80px;
+  }
+}
+
+@media (max-width: 380px) {
+  .instagram-media {
+    margin: 0 -8px !important;
+  }
+}
